@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".UserGoogleMapActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHrUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.00" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHrDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1.00" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glMapUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.28" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glMapDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.62" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.13" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.22" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.87" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.89" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.91" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHrBotNavStickerUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHrBotNavStickerUp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHrBotNavStickerBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHr16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glScLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.00" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glScRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1.00" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVrLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVrRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.97" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.06" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.23" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVrTemp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.48" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVrTemp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.86" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVrTemp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <ImageView
+        android:id="@+id/ivBottomBar"
+        android:layout_width="413dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:contentDescription="@string/bottomNavigation"
+        app:layout_constraintBottom_toBottomOf="@id/glHrDown"
+        app:layout_constraintEnd_toEndOf="@id/glScRight"
+        app:layout_constraintStart_toStartOf="@id/glScLeft"
+        app:layout_constraintTop_toTopOf="@id/glHr16"
+        tools:ignore="ImageContrastCheck,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="65dp"
+        android:layout_height="39dp"
+        android:background="@drawable/img_1"
+        app:layout_constraintEnd_toEndOf="@id/glHrBotNavStickerBottom"
+        app:layout_constraintStart_toStartOf="@id/glVr1"
+        app:layout_constraintTop_toTopOf="@id/glHrBotNavStickerUp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:width="15dp"
+        android:background="@drawable/group_chat_icon"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@id/glHrBotNavStickerBottom"
+        app:layout_constraintStart_toStartOf="@id/glVrTemp1"
+        app:layout_constraintTop_toTopOf="@id/glHrBotNavStickerUp2"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/profile_photo_logo"
+        app:layout_constraintBottom_toBottomOf="@id/glHrBotNavStickerBottom"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="@id/glVrTemp2"
+        app:layout_constraintTop_toTopOf="@id/glHrBotNavStickerUp2"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnVisitingList"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/visting_places_list"
+        app:layout_constraintBottom_toBottomOf="@id/glHrBotNavStickerBottom"
+        app:layout_constraintEnd_toEndOf="@id/glVrJorneyAidEnd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/glVrTemp3"
+        app:layout_constraintTop_toTopOf="@id/glHrBotNavStickerUp2"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glVrJorneyAidEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.94" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentHome"
+        android:name="com.example.journeyaid.FragmentHome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/glHr16"
+        app:layout_constraintEnd_toEndOf="@id/glScRight"
+        app:layout_constraintStart_toStartOf="@id/glScLeft"
+        app:layout_constraintTop_toTopOf="@id/glHrUp"
+        tools:ignore="MissingConstraints" />
+
+    <FrameLayout
+        android:id="@+id/fragmentProfile"
+        android:name="com.example.journeyaid.FragmentProfile"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/glHr16"
+        app:layout_constraintEnd_toEndOf="@id/glScRight"
+        app:layout_constraintStart_toStartOf="@id/glScLeft"
+        app:layout_constraintTop_toTopOf="@id/glHrUp"
+        tools:ignore="MissingConstraints" />
+
+    <FrameLayout
+        android:id="@+id/fragmentVisitList"
+        android:name="com.example.journeyaid.FragmentVisitList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/glHr16"
+        app:layout_constraintEnd_toEndOf="@id/glScRight"
+        app:layout_constraintStart_toStartOf="@id/glScLeft"
+        app:layout_constraintTop_toTopOf="@id/glHrUp"
+        tools:ignore="MissingConstraints" >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentChat"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/glHr16"
+        app:layout_constraintEnd_toEndOf="@id/glScRight"
+        app:layout_constraintStart_toStartOf="@id/glScLeft"
+        app:layout_constraintTop_toTopOf="@id/glMapDown"
+        tools:ignore="MissingConstraints" >
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

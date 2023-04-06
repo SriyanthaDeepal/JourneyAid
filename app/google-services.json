@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81057422634",
+    "project_id": "journeyaid-cf507",
+    "storage_bucket": "journeyaid-cf507.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81057422634:android:08a6b6ba98fb355f86d253",
+        "android_client_info": {
+          "package_name": "com.example.journeyaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81057422634-63mb0funimfbupce41dlna3kment4mgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQDCejjzUbrmY22vU8IuUgk8Q3CZqAZrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81057422634-63mb0funimfbupce41dlna3kment4mgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
