@@ -1,1 +1,2 @@
 # JourneyAid
+JourneyAid is a mobile application created to provide suggestions for travellers. The main function of this application is to provide suggestions about visiting places which can visit through the route user is willing to follow. To provide the path, the application is implemented with a map and the user can enter his/her desired start and destination. After that, the user can select suggested places, find details provided by the application, and create a list that he is willing to visit. 
